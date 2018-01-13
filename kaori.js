@@ -64,4 +64,4 @@ client.registry
 	.registerDefaults()
 	.registerCommandsIn(path.join(__dirname, 'commands'));
 
-client.login(token);
+client.login(MzkwMDMxNzg4NTMxMTIyMTg2.DTwt2w.42NIv_jziwCH05WxJop_XJfTbls);
