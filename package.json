@@ -19,7 +19,7 @@
   "homepage": "https://github.com/Th3FallenAngel/Kaori-Bot#readme",
   "dependencies": {
     "colors.js": "^1.2.4",
-    "discord.js": "^11.2.1",
+    //"discord.js": "^11.2.1",
     "discord.js-commando": "^0.9.0",
     "eslint": "^4.15.0",
     "ffmpeg-binaries": "^3.2.2-3",
