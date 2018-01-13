@@ -1,4 +1,5 @@
 /* eslint-disable no-console */
+const client = require('discord.js');
 const commando = require('discord.js-commando');
 const path = require('path');
 const oneLine = require('common-tags').oneLine;
@@ -55,7 +56,11 @@ client.setProvider(
 ).catch(console.error);
 
 client.registry
-	.registerGroup('math', 'Math')
+	.registerGroup([
+        ['math', 'Math'],
+        ['', ''],
+        ['','']
+    ])
 	.registerDefaults()
 	.registerCommandsIn(path.join(__dirname, 'commands'));
 
